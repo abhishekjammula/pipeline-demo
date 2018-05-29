@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'First Pipeline Job on ${MY_NAME}'
+        echo "First Pipeline Job on ${MY_NAME}"
         sh 'java -version'
       }
     }
